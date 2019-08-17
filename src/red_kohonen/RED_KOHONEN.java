@@ -59,7 +59,7 @@ public class RED_KOHONEN {
     
     public void entrenar(float [] sujetoEntrenamiento)
     {
-        int ganadora;
+        int ganadora;kcjxkcj    
         float[] auxDistancias;
         auxDistancias = calcularDistancias(sujetoEntrenamiento);
         ganadora = encontrarGanadora(auxDistancias);
